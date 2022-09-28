@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgFoto"
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/tenthousanddragonwallpaper" />
+
+    <TextView
+        android:id="@+id/txtInformacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgFoto"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text=" Ten Thousand Dragon"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnFoto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtInformacao"
+        android:layout_marginTop="70dp"
+        android:text="Exibir foto1" />
+
+    <Button
+        android:id="@+id/btnFoto2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnFoto1"
+        android:layout_marginTop="30dp"
+        android:text="Exibir foto2" />
+
+    <Button
+        android:id="@+id/btnFoto3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnFoto2"
+        android:layout_marginTop="30dp"
+        android:text="Exibir foto3" />
+
+</RelativeLayout>
